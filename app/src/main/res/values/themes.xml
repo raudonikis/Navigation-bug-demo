@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.NavigationBugDemo" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Navigation -->
+        <item name="enterAnim">@anim/slide_in_right</item>
+        <item name="exitAnim">@anim/slide_out_left</item>
+        <!-- TODO -> comment this line out (popExitAnim) to fix the bug -->
+        <item name="popExitAnim">@anim/slide_out_right</item>
+        <item name="popEnterAnim">@anim/slide_in_left</item>
+    </style>
+</resources>
